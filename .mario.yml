@@ -1,0 +1,11 @@
+Pipeline: dotnet-framework
+Solution: Etl.EolHosting.sln
+TestRunner: xunit
+UnitTestProjects: [Etl.EolHosting.Test]
+IntegrationTestProjects: [Etl.EolHosting.Integration]
+SonarQubeProject:
+  Name: Exact Etl EolHosting
+  Key: exact-online-etl-eolhosting
+PublishSettings:
+  NuGet:
+    Feed: https://proget.eu.exactsoftware.com/nuget/cig-nuget

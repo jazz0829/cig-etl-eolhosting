@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.EolHosting", "src\Etl.EOLHosting\Etl.EolHosting.csproj", "{730E9D26-177C-4E30-B00E-E8CC6FD094BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.EolHosting.Test", "test\Etl.EOLHosting.Test\Etl.EolHosting.Test.csproj", "{FCFE516E-C8C9-433E-ADBF-FFF04177C683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.EolHosting.Service", "src\Etl.EolHosting.Service\Etl.EolHosting.Service.csproj", "{10A222CE-D542-43F1-A678-BCA5FA4A11D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83C8664A-3994-45D7-8741-BBED45079D6B}"
+	ProjectSection(SolutionItems) = preProject
+		.mario.yml = .mario.yml
+		build.ps1 = build.ps1
+		codecoverage.runsettings = codecoverage.runsettings
+		debug.testsettings = debug.testsettings
+		GitVersion.yml = GitVersion.yml
+		Jenkinsfile = Jenkinsfile
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etl.EolHosting.Integration", "test\Etl.EolHosting.Integration\Etl.EolHosting.Integration.csproj", "{9F02A777-964C-4D3D-A141-D4928D865F60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730E9D26-177C-4E30-B00E-E8CC6FD094BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730E9D26-177C-4E30-B00E-E8CC6FD094BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730E9D26-177C-4E30-B00E-E8CC6FD094BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730E9D26-177C-4E30-B00E-E8CC6FD094BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFE516E-C8C9-433E-ADBF-FFF04177C683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFE516E-C8C9-433E-ADBF-FFF04177C683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFE516E-C8C9-433E-ADBF-FFF04177C683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFE516E-C8C9-433E-ADBF-FFF04177C683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A222CE-D542-43F1-A678-BCA5FA4A11D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A222CE-D542-43F1-A678-BCA5FA4A11D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A222CE-D542-43F1-A678-BCA5FA4A11D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A222CE-D542-43F1-A678-BCA5FA4A11D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F02A777-964C-4D3D-A141-D4928D865F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F02A777-964C-4D3D-A141-D4928D865F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F02A777-964C-4D3D-A141-D4928D865F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F02A777-964C-4D3D-A141-D4928D865F60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63D8AB2F-DA92-49D9-895B-68638D2C1F39}
+	EndGlobalSection
+EndGlobal
